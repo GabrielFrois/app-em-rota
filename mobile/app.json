@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Em Rota",
+    "slug": "em-rota",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "newArchEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#E6F4FE"
+      },
+      "package": "com.gabrielfrois.emrota",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification.png",
+          "color": "#2D6BE4",
+          "defaultChannel": "default",
+          "sounds": []
+        }
+      ]
+    ],
+    "scheme": "emrota",
+    "extra": {
+      "apiUrl": "https://em-rota.onrender.com",
+      "eas": {
+        "projectId": "8202bb03-63cc-42d2-81bf-6953b8644892"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1773679409276,
+      "tag": "0000_wonderful_champions",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1773679409278,
+      "tag": "0001_push_tokens",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1746450000000,
+      "tag": "0002_drop_unused_tables",
+      "breakpoints": true
+    }
+  ]
+}
